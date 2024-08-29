@@ -34,29 +34,46 @@
             </div>
         </nav>
 
-        <section>
-            <p>
-                Offer: earn 1% of all sales as subscription credits, up to
-                $10,000. Learn more
+        <section class="flex flex-col items-center py-10">
+            <p class="bg-[#c6e1e0] w-fit px-2 py-1 rounded">
+                <span class="font-bold">Offer: earn 1% of all sales</span> as
+                subscription credits, up to $10,000.
+                <span class="underline">Learn more</span>
             </p>
-            <p>Plans & pricing</p>
-            <h1>
+            <p class="uppercase mt-10 font-bold text-lg">Plans & pricing</p>
+            <h1 class="font-semibold text-5xl">
                 Start for free, then enjoy <br />
                 your first month for ₹20
             </h1>
-            <div>
+            <div class="flex flex-col items-center mt-4">
                 <p>
                     Choose the best plan for your business. Change plans as you
                     grow.
                 </p>
-                <form>
-                    <input type="email" name="email" />
-                    <button
-                        class="bg-black text-white font-bold px-5 py-2 rounded-full"
-                    >
-                        Start free trail
-                    </button>
+                <form class="my-2 w-full">
+                    <div class="relative">
+                        <input
+                            type="email"
+                            id="email"
+                            class="block rounded-full px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 bg-white border-[1px] border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-purple-600 peer"
+                            placeholder=" "
+                        />
+                        <label
+                            for="email"
+                            class="pl-2 absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] start-2.5 peer-focus:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+                            >Enter your email address</label
+                        >
+                        <button
+                            class="bg-black text-white font-bold px-5 py-2 rounded-full absolute right-0 top-0 bottom-0 m-1"
+                        >
+                            Start free trail
+                        </button>
+                    </div>
                 </form>
+                <p class="text-center">
+                    Try Shopify free, no credit card required. By entering your
+                    email,<br>you agree to receive marketing emails from Shopify.
+                </p>
             </div>
         </section>
     </body>
